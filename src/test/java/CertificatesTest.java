@@ -12,7 +12,7 @@ import static org.hamcrest.Matchers.notNullValue;
 
 @DisplayName("Testy API certyfikatów")
 public class CertificatesTest {
-    private final static String CERTIFICATE_API_VERSION = "/v1";
+
     TestConfig testConfig = new TestConfig();
 
     @BeforeEach
