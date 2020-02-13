@@ -17,7 +17,7 @@ public class CertificatesTest {
 
     @BeforeEach
     void setupCertificates(){
-        testConfig.setupEnvironment(CERTIFICATE_API_VERSION);
+        testConfig.setupEnvironment(testConfig.getCertificateApiVersion());
     }
 
     @Test
